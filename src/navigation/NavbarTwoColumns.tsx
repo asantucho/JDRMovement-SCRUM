@@ -5,7 +5,7 @@ import { Background } from '@/background/Background';
 import Drawer from '@/drawer/Drawer'; // Import the Drawer component
 
 type INavbarProps = {
-  logo: ReactNode;
+  logo?: ReactNode;
   children?: ReactNode;
 };
 
@@ -21,10 +21,10 @@ const NavbarTwoColumns = (props: INavbarProps) => {
   };
 
   return (
-    <Background color="bg-gray-200" width="w-full">
+    <Background width="w-full">
       <div
         id="header"
-        className="inset-x-0 top-0 z-50 flex items-center justify-between bg-gray-200 px-10"
+        className="inset-x-0 top-0 z-50 flex items-center justify-between px-10 text-gray-100"
       >
         <div>
           <Link href="/">{props.logo}</Link>

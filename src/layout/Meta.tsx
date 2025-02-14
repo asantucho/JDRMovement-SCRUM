@@ -3,7 +3,6 @@ import { NextSeo } from 'next-seo';
 import Head from 'next/head';
 import { AppConfig } from '../utils/AppConfig';
 
-
 type IMetaProps = {
   title: string;
   description: string;
@@ -31,19 +30,19 @@ const Meta = (props: IMetaProps) => {
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href={`${router.basePath}/favicon-black.svg`}
+          href={`${router.basePath}/favicon-black.png`}
           key="icon32"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href={`${router.basePath}/favicon-black.svg`}
+          href={`${router.basePath}/favicon-black.png`}
           key="icon16"
         />
         <link
           rel="icon"
-          href={`${router.basePath}/favicon-black.svg`}
+          href={`${router.basePath}/favicon-black.png`}
           key="favicon"
         />
       </Head>
