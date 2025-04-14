@@ -17,13 +17,13 @@ const CompAboutUs = (props: ICompAboutUsProps) => {
   return (
     <div>
       <div className="text-center" id="about">
-        <h1 className="whitespace-pre-line text-4xl font-bold leading-hero text-gray-100">
+        <h1 className="whitespace-pre-line text-4xl font-bold leading-hero text-gray-900">
           {props.title}
         </h1>
       </div>
       <div className="flex flex-wrap items-center">
         {/* For mobile, text first if reverse is true, else image first */}
-        <div className={`w-full p-6 text-center text-gray-100`}>
+        <div className={`w-full p-6 text-center text-gray-900`}>
           {paragraphs}
         </div>
         <div className={`w-full p-6`}></div>

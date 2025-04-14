@@ -4,7 +4,7 @@ import { Section } from '../layout/Section';
 
 const AboutUs = () => {
   return (
-    <Background>
+    <Background color="bg-gray-100">
       <Section>
         <CompAboutUs
           title="Our mission"

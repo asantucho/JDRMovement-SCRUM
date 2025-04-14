@@ -20,12 +20,12 @@ const Base = () => {
   return (
     <div className="text-gray-600 antialiased">
       <Meta title={AppConfig.title} description={AppConfig.description} />
-      <Background image="/front-view-woman-with-dumbbells-copy-space.jpg">
+      <Background image="/pexels-goumbik-669584.jpg">
         <Header />
         <Hero />
         <AboutUs />
-        <Services />
       </Background>
+      <Services />
       <Banner toggleFormVisibility={toggleFormVisibility} />
       {showForm && <FormComponent />}
       <Footer />

@@ -8,7 +8,7 @@ const Hero = () => {
       <HeroOneButton
         title={
           <>
-            <span className="text-primary-700">
+            <span className="text-primary-200">
               {'No excuses. No shortcuts. Just results'}
             </span>
           </>
